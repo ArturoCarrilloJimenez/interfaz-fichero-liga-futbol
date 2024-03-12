@@ -27,7 +27,7 @@ public class NavController extends FicheroFutbol {
 
     @FXML
     private void delateEquipo() throws IOException {
-
+        LigaApplication.setRoot("deleteEquipo");
     }
 
     @FXML
