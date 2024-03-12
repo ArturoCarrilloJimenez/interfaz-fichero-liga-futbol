@@ -381,7 +381,11 @@ public class FicheroFutbol {
             }
         }
 
-        mensajeError = rescribirFichero(arrayList);
+        if (centinela == true) {
+            // Rescribe el fichero con los datos actuales
+            mensajeError = rescribirFichero(arrayList);
+        }
+        else {mensajeError = -1;}
 
         return mensajeError;
     }

@@ -23,7 +23,7 @@ public class LigaApplication extends Application {
      */
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("index-liga-view"), 620, 400);
+        scene = new Scene(loadFXML("index-liga-view"), 640, 400);
         stage.setTitle("Liga de futbol");
         stage.setScene(scene);
         stage.show();

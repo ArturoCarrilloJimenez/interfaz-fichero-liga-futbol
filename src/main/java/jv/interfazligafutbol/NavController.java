@@ -1,6 +1,5 @@
 package jv.interfazligafutbol;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import java.io.IOException;
 
@@ -33,7 +32,7 @@ public class NavController extends FicheroFutbol {
 
     @FXML
     private void modificarEquipo() throws IOException {
-
+        LigaApplication.setRoot("modificarEquipo");
     }
 
     @FXML
@@ -60,6 +59,6 @@ public class NavController extends FicheroFutbol {
 
     @FXML
     private void buscar() throws IOException {
-
+        LigaApplication.setRoot("buscarEquipo");
     }
 }

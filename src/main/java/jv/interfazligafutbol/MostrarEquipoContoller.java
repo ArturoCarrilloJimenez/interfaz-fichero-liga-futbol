@@ -2,18 +2,27 @@ package jv.interfazligafutbol;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
-
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 
+/**
+ * Clase que controla la vista de los equipos
+ *
+ * @version 1.0
+ */
 public class MostrarEquipoContoller extends FicheroFutbol implements Initializable {
 
     @FXML
     private TextFlow mostrarEquipo;
 
+    /**
+     * Metodo que inicializa la vista
+     *
+     * @param location URL
+     * @param resources ResourceBundle
+     */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         ArrayList<String[]> equipos = arrayLiga();

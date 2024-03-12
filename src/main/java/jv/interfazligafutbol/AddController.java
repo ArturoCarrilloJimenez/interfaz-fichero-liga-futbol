@@ -3,7 +3,6 @@ package jv.interfazligafutbol;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-
 import java.io.IOException;
 
 /**
@@ -25,9 +24,14 @@ public class AddController extends FicheroFutbol {
     @FXML
     private void add() throws IOException {
         boolean limite = limiteEquipos();
+        String[] equipo = buscarEquipo(name.getText().toLowerCase());
 
         // Si el limite de equipos es verdadero, se redirige a la vista error
-        if (!limite) {
+        if (limite) {
+            mensaje_error.setText("Se a superado el limite de equipos");
+        } else if (equipo != null) {
+            mensaje_error.setText("Este equipo ya existe");
+        } else {
             int partJugados = -1, partGanados = -1, partEmpatados = -1, mensajeError = 0;
 
 
@@ -64,8 +68,6 @@ public class AddController extends FicheroFutbol {
                     LigaApplication.setRoot("error");
                 }
             }
-        } else {
-            mensaje_error.setText("Se a superado el limite de equipos");
         }
     }
 }
