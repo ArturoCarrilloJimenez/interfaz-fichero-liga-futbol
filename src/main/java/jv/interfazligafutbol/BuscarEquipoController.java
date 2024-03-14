@@ -8,6 +8,8 @@ import javafx.scene.control.TextField;
  * Clase que controla la busqueda de un equipo
  *
  * @version 1.0
+ * @since 2024
+ * @author Arturo Carrillo Jimenez
  */
 public class BuscarEquipoController extends FicheroFutbol {
 

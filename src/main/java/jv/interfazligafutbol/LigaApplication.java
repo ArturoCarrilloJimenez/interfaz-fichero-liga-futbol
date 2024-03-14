@@ -5,11 +5,15 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 
 /**
  * JavaFX App
+ * Clase que inicia la aplicacion
+ *
+ * @version 1.0
+ * @since 2024
+ * @author Arturo Carrillo Jimenez
  */
 public class LigaApplication extends Application {
 

@@ -9,6 +9,8 @@ import java.io.IOException;
  * Clase que controla la vista de agregar un equipo
  *
  * @version 1.0
+ * @since 2024
+ * @author Arturo Carrillo Jimenez
  */
 public class AddController extends FicheroFutbol {
 
@@ -19,7 +21,7 @@ public class AddController extends FicheroFutbol {
     private Label mensaje_error;
 
     /**
-     * Metodo que agrega un equipo
+     * Metodo que agrega un equipo y valida los campos de texto
      */
     @FXML
     private void add() throws IOException {

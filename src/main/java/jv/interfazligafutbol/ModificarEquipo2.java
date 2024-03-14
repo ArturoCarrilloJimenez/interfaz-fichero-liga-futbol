@@ -9,6 +9,8 @@ import java.io.IOException;
  * Clase que controla la vista de modificar un equipo
  *
  * @version 1.0
+ * @since 2024
+ * @autor Arturo Carrillo Jimenez
  */
 public class ModificarEquipo2 extends FicheroFutbol {
 

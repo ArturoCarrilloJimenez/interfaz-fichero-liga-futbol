@@ -11,6 +11,8 @@ import java.util.ResourceBundle;
  * Clase que controla la vista de los equipos
  *
  * @version 1.0
+ * @since 2024
+ * @autor Arturo Carrillo Jimenez
  */
 public class MostrarEquipoContoller extends FicheroFutbol implements Initializable {
 

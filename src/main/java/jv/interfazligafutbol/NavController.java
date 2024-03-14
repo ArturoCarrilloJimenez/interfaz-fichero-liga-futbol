@@ -7,6 +7,8 @@ import java.io.IOException;
  * Clase que controla la navegacion de la aplicacion
  *
  * @version 1.0
+ * @since 2024
+ * @autor Arturo Carrillo Jimenez
  */
 public class NavController extends FicheroFutbol {
 
