@@ -20,7 +20,7 @@ public class MostrarEquipoContoller extends FicheroFutbol implements Initializab
     private TextFlow mostrarEquipo;
 
     /**
-     * Metodo que inicializa la vista
+     * Metodo que inicializa la vista con los equipos actuales
      *
      * @param location URL
      * @param resources ResourceBundle

@@ -19,6 +19,9 @@ public class ModificarEquipo extends FicheroFutbol {
     @FXML
     private Label mensaje_error;
 
+    /**
+     * Metodo que comprueba si existe el equipo y redirige a la vista de modificar
+     */
     @FXML
     private void modificar() throws IOException {
         String[] equipo = buscarEquipo(equipoModificar.getText());

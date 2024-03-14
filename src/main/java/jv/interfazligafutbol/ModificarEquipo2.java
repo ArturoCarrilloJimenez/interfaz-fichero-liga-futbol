@@ -32,6 +32,10 @@ public class ModificarEquipo2 extends FicheroFutbol {
 
     /**
      * Metodo que modifica un equipo
+     * Se obtienen los valores de los campos de texto y se comprueban si son validos
+     * Si los partidos jugados, ganados o empatados son menores a 0 o si los partidos ganados o empatados son mayores a los jugados, se muestra un mensaje de error
+     * Si no hay errores, se calcula el numero de partidos perdidos y los puntos
+     * Si se guarda el equipo correctamente, se redirige a la vista correcto, si no, a la vista error
      */
     @FXML
     private void modificar() throws IOException {
